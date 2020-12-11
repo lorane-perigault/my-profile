@@ -1,0 +1,140 @@
+body{
+background-color: rgb(185, 213, 250);
+font-family: Arial, sans-serif;
+font-size: 18px;
+text-align: justify;
+
+
+.card-white {
+	background-image: url(images/marbre.jpg);
+	padding: 30px;
+	border-radius: 4px;
+	box-shadow: 0 10px 30px rgba(0,0,0;0.2);
+}
+	
+
+
+
+}
+
+h1 {
+	color: rgb(11, 22, 82);
+	font-family: Comic Sans MS;
+	font-size: 40px;
+	border-radius: 4px;
+    background: white;
+    padding: 30px;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.2)
+}
+
+h2 {
+	font-family: Comic Sans MS, cursive;
+	color: rgb(30,30,30);
+	font-size: 20px;
+	border-radius: 4px;
+    background: white;
+    padding: 30px;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.2)
+}
+
+a:hover {
+	color:black;
+}
+
+a {
+	text-decoration: none;
+}
+
+
+
+@media (max-width: 540px) {
+	.container {
+		width: 300px;
+	}
+}
+
+@media (max-width: 720px) {
+	.container {
+		width: 500px;
+	}
+}
+@media (max-width: 960px) {
+	.container {
+		width: 700px;
+	}
+}
+
+@media (max-width: 300px) {
+	.container {
+		width: 200px;
+	}
+}
+
+@media (max-width: 200px) {
+	.container {
+		width: 100px;
+	}
+}
+
+
+
+/*Custom design with class*/
+
+.container {
+	width: 700px;
+	margin: 40px auto;
+
+}
+
+.card-white {
+	background-color: white;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1)
+	border-radius: 4px;
+	margin: 20px 0px;
+	text-align: center;
+	background-image: url(images/marbre.jpg);
+
+	}
+
+.img-circle {
+	border-radius: 50%;
+}
+
+.btn-blue {
+	background-color: #6B72E1;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 4px;
+}
+.btn-blue:hover {
+	background-color: rgb(185, 213, 250);
+	color: white;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+
+.list-inline i {
+	font-size: 50px;
+	color: rgb(230, 230, 230);
+}
+.list-inline i:hover {
+	color: black;
+}
+
+ul {
+	padding-left: 0px;
+}
+
+.image {
+	padding: 30px auto; 
+	text-align: center;
+}
